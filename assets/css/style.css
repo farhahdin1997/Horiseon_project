@@ -188,13 +188,23 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/*.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
+}*/
 
-.footer h2 {
+footer h2 { /*changed this format as it was for a class so removed the . */
     font-size: 20px;
 }
+
+footer {  /*changed this format as it was for a class so removed the . */
+   
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+   
+   
+  }
