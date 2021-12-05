@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>website</title>
+    <title> Code Refactor </title>  
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                         <a href="#online-reputation-management">Online Reputation Management</a>
                     </li>
                     <li>
-                        <a href="#social-media-marketing">Social Media Marketing</a> <!-- fix this link its not working-->
+                        <a href="#social-media-marketing">Social Media Marketing</a> <!-- FIX LINK NOT WORKING -->
                 </li>
                 </ul>
             </div>
@@ -34,103 +35,72 @@
     </header>
 
 
-<!--Deleted this it was thw wrong way to implement this-->
-  <!--<div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a> <!-- fix this link its not working-->
-               <!--</li>
-            </ul>
-        </div>
-    </div>-->
+    <div class="hero"></div> <!-- CHANGE THIS-->
+    <div class="content"><!-- CHANGE THIS-->
 
-
-        
-
-
-
-
-
-
-
-<!-- changed this to sections with the right styling using classes and style in css -->
-
-<!-- change these two divs though-->
-<div class="hero"></div>
-    <div class="content">
-        
-        <section class= "search-engine-optimization">
+   <section>
+        <article class ="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg"  alt= "search-optimization" class="float-left" /> <!-- added an alt-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </section>
-        
-        <section class ="online-reputation-management"> <!-- had two classes and id only need one?-->
+        </article>
+
+        <article class ="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt= "Reputation-management" class="float-right" /> <!-- added an alt-->
             <h2>Online Reputation Management</h2>
-                 <p>
-                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-                 </p>
-        </section>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </article>
 
-        <section class= "social-media-marketing" <!-- had two classes and id only need one?-->
+        <article class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="social-media" class="float-left" /> <!-- added an alt-->
             <h2>Social Media Marketing</h2>
               <p>
                   Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
               </p>
-        
-        </section>
-        
-           
-    <!-- THIS NEEDS TO BE IN ASIDE TAG-->
-       <div class="benefits">
-        <div class="benefit-lead">
+        </article>
+        <!-- H3 TAGS WILL GO HERE WHEN ADDING HEADINGS-->
+        <!-- aside tag goes there but the style goes and it still isn't on the right hand side next to section-->
+    </section>
+       
+    <!-- HOW TO GET THIS ALIGNED WITH SECTION AND ARTICLE-->
+    <!--section class= "benefits">
+        <aside class= "benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt= "generation"/>  <!-- added an alt-->
-          <p>
+            <!--<p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+    
+        </aside>
+        
+        <aside class = "benefit-brand ">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png"  alt="brandAwareness" /> <!-- added an alt--> 
-           <p>
+         <!--<p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </aside>
+    
+        <aside class = "benefit-cost">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"  alt="cost" /> <!-- added an alt--> 
-          <p>
+          <!--<p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
+        </aside>
+        </section>-->
+
 
     <footer > <!-- added a footer div class was used which isnt the right way to add a footer-->
-    <h2>Made with ❤️️ by Horiseon</h2>
+    <h4>Made with ❤️️ by Horiseon</h4>
     <p>  &copy; 2019 Horiseon Social Solution Services, Inc.</p>
         
     </footer>
    
-    <!-- Deleted this div as it wasn't the right way too add a footer-->
-    <!--<div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </div>--> 
 </body>
 
 </html>
