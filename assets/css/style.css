@@ -17,18 +17,8 @@ header {
     color: #ffffff;
 }
 
-.nav{
-    padding-top:15px;
-    margin-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    display: inline-block;
-    font-size: 48px;
-    list-style-type: none;
-    text-decoration: none;
-    color: #d9dcd6;
-}
 
+/* added nav to the css and took out the div*/
 
  header h1 {
     display: inline-block;
@@ -204,12 +194,6 @@ p {
     font-size: 36px;
 }
 
-/*.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}*/
 
 footer h2 { /*changed this format as it was for a class so removed the . */
     font-size: 20px;
