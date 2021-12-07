@@ -93,6 +93,18 @@ p {
     background-color: #2589bd;
 }
 
+aside{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -194,6 +206,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 
 footer h4 { /*changed this format as it was for a class so removed the . */
