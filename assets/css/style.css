@@ -15,80 +15,84 @@ main{
 
 }
 header {
-    padding: 20px;
+    padding: 20px; /*Padding is the space between its content and its border.*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-
-/* added nav to the css and took out the div*/
-
- header h1 {
-    display: inline-block;
+/*Css for the header*/
+ header h1 { /*Allows the header h1 tag to apply these styles*/
+    display: inline-block; /*Used to display an element as an inline-level block container*/
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 .seo { /*Allows the header h1 tag Sea to apply these styles*/
     color: #d9dcd6;
 }
 
- header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+ header nav { /*Allows the header nav tag Sea to apply these styles*/
+    color: #d9dcd6;
+    padding-top: 15px; /*Padding is the space between its content and its border.The padding-top property sets the top padding (space) of an element. */
+    margin-right: 20px; /*sets the margin area on the right side of an element.*/
+    float: right; /*Setting nav header to float to the right of the element*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Allows the nav to not show as a list*/
 }
 
  header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /*Used to display an element as an inline-level block container*/
+    margin-left: 25px; /*sets the margin area on the left side of an element.*/
 }
 
+/*Link css*/
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; /*Setting links to not have an decoration property like colour , line etc*/
 }
+
+/* Styling all paragraphs like this*/
 
 p {
-    font-size: 16px;
+    font-size: 16px; 
 }
+
+/*Main picture styling*/
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /*Setting the height of yhr element*/
+    width: 100%; /*Setting the width size*/
+    margin-bottom: 25px; /*sets the margin area on the bottom side of an element.*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*Setting the image background*/
+    background-size: cover; /*specifies the size of the background images to covering the element */ 
+    background-position: center; /*postioning of the image*/
 }
 
+/* a class to move content left or right*/
 
-.float-left {
+.img1 {
     float: left;
-    margin-right: 25px;
+    margin-right: 25px; /*sets the margin area on the right side of an element.*/
 }
 
-
-.float-right {
+.img2 {
     float: right;
-    margin-left: 25px;
+    margin-left: 25px; /*sets the margin area on the right side of an element.*/
 }
 
+/*Classes styling */
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%; /*Setting the with*/
+    display: inline-block;  /*Used to display an element as an inline-level block container*/
+    margin-left: 20px;/*sets the margin area on the left side of an element.*/
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 20px;/*sets the margin area on the right side of an element.*/
+    padding: 20px;/*Padding is the space between its content and its border.*/
     clear: both;
     float: right;
     width: 20%;
@@ -98,54 +102,54 @@ p {
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 32px; /*sets the margin area on the bottom side of an element.*/
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
+.benefit-brand { 
+    margin-bottom: 32px; /*sets the margin area on the bottom side of an element.*/
     color: #ffffff;
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 32px; /*sets the margin area on the bottom side of an element.*/
     color: #ffffff;
 }
- .MainSection{
-     display:inline;
+ .mainSection{
+     display:inline; /*Used to display an element as an inline-level block container*/
  }
 
 .benefit-lead h3 {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /*sets the margin area on the bottom side of an element.*/
     text-align: center;
 }
 
 .benefit-brand h3 {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /*sets the margin area on the bottom side of an element.*/
     text-align: center;
 }
 
 .benefit-cost h3 {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /*sets the margin area on the bottom side of an element.*/
     text-align: center;
 }
 
 .benefit-lead img {
-    display: block;
-    margin: 10px auto;
+    display: block; /*Used to display an element is displayed as a block*/
+    margin: 10px auto; 
     max-width: 150px;
     height:150px;
 }
 
 .benefit-brand img {
-    display: block;
+    display: block; /*Used to display an element is displayed as a block*/
     margin: 10px auto;
     max-width: 150px;
     height:150px;
 }
 
 .benefit-cost img {
-    display: block;
+    display: block; /*Used to display an element is displayed as a block*/
     margin: 10px auto;
     max-width: 150px;
     height:150px;
@@ -153,7 +157,7 @@ p {
 
 #search-engine-optimization {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 50px; /*Padding is the space between its content and its border.*/
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -162,7 +166,7 @@ p {
 
 #online-reputation-management {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 50px; /*Padding is the space between its content and its border.*/
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -171,7 +175,7 @@ p {
 
 #social-media-marketing {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 50px; /*Padding is the space between its content and its border.*/
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -179,7 +183,7 @@ p {
 }
 
 #search-engine-optimization img {
-    max-height: 200px;
+    max-height: 200px; /*setting max height*/
 }
 
 #online-reputation-management img {
@@ -205,6 +209,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer styling */
 
 footer h4 { /*changed this format as it was for a class so removed the . */
     font-size: 20px;
@@ -212,8 +217,8 @@ footer h4 { /*changed this format as it was for a class so removed the . */
 
 footer {  /*changed this format as it was for a class so removed the . */
    
-    padding: 30px;
-    clear: both;
+    padding: 30px;/*Padding is the space between its content and its border.*/
+    clear: both; /*The clear property specifies what should happen with the element that is next to a floating element.*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: center; /*align text in the centre*/
 }
