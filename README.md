@@ -9,4 +9,5 @@ Deployment Link :  https://farhahdin1997.github.io/Horiseon_project/
 
 Screenshot:
 
-<img width="553" alt="File" src="https://user-images.githubusercontent.com/81389441/145645040-b02e8a50-8835-4ef7-b106-accad6122989.png">
+
+<img width="615" alt="finalScreenshot" src="https://user-images.githubusercontent.com/81389441/145645738-a2e72177-ad41-4c36-8a5d-7cb0336a4f81.png">
