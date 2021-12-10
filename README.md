@@ -1,10 +1,14 @@
-README file with description, screenshot, and link to deployed application.
 
-So, a paragraph describing what the site is, a screenshot, and a link to where you deployed the application.
+Description:
 
-This website gives information about three topics. The user clicks on the links on the nav bar which then allows to navigate to which section they are after. 
+The purpose of this website is to provide information on various topics such as search optimization  , online reputation and social media marketing. The website is informative and with links to access different sections of the website.
 
+This idea was to refactor the code to allow the website to be accessibility. Therefore, i added semantic elements such as header , footer, main, section , article and aside. This allows the website to be section the way it needed to be but also use the right html format. 
 
-Deployment:  https://farhahdin1997.github.io/Horiseon_project/
+Deployment Link :  https://farhahdin1997.github.io/Horiseon_project/
 
+Screenshot:
 
+![](2021-12-10-21-26-46.png)
+
+File
